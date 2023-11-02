@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+@media screen and (min-width: 376px) {
+
+  .Container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .Result {
+    height: 50%;
+    width: 50%;
+    box-shadow: 2px 5px hsl(224, 30%, 27%);
+    display: flex;
+    border-radius: 0px 50px 50px 0px;
+    
+  }
+
+  .Result-Score {
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Result-Score > h4 {
+    margin: 10% 0% 10% 0%;
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+
+  .Score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 75%;
+    height: 39%;
+    margin: 0% 20% 0% 20%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  }
+
+  .Score > h1 {
+    margin: 0%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 50px;
+  }
+
+  .Score > p {
+    padding-top: 1%;
+    color: hsl(241, 10%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif
+  }
+
+  .Result-Score > h2 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+    font-size:  30px;
+  }
+
+  .Result-Summary {
+    height: 100%;
+    width: 50%;
+    border-radius: 0px 50px 50px 0px;
+    padding: 3%;
+  }
+
+  .Result-Summary > h4 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 10% 0% 10% 0%;
+  }
+
+  .Result-Summary > div {
+    height: 65%;
+  }
+
+  img {
+    display:  inline;
+  }
+
+  .Result-Score > h4,  .Result-Score > p {
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif
+  }
+
+  h2, h1 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif
+  }
+  
+  ul {
+    padding: 0px;
+    height: 100%;
+    list-style: none;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Hanken Grotesk', sans-serif
+  }
+
+  .Indiviual-score-reactoin {
+    margin-top: 3%;
+    background: hsl(0, 100%, 67%, .2);
+  }
+
+  .Indiviual-score-memory {
+    margin-top: 3%;
+    background: hsl(39, 100%, 56%, .2);
+  }
+
+  .Indiviual-score-verbal {
+    margin-top: 3%;
+    background: hsl(166, 100%, 37%, .2);
+  }
+
+  .Indiviual-score-visual {
+    margin-top: 3%;
+    background: hsl(234, 85%, 45%, .2);
+  }
+
+  .Indiviual-score-text {
+    float: left;
+    font-family: 'Hanken Grotesk', sans-serif
+  }
+
+  span {
+    float: right;
+    padding-top: 4%;
+    font-family: 'Hanken Grotesk', sans-serif
+  }
+
+  li {
+    padding: 3%;
+    border-radius: 20px;
+    height: 13%;
+    display: flex;
+    width: auto;
+    align-items: center;
+    flex-grow: initial;
+
+  }
+
+  li > p {
+    display: inline;
+    width: auto;
+    flex: 3;
+    font-family: 'Hanken Grotesk', sans-serif
+  }
+
+  span {
+    padding: 0%;
+    flex: 1;
+    float: right;
+    font-family: 'Hanken Grotesk', sans-serif
+  }
+
+  button {
+    height: 10%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Hanken Grotesk', sans-serif
+  }
+  
+  button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+  }
+
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .Container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .Result {
+    height: 100vh;
+  }
+
+  .Result-Score {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0px 0px 20px 20px;
+    height: 40%;
+    text-align: center;
+  }
+
+  .Result-Score > h4 {
+    margin: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+    color: hsl(241, 100%, 89%);
+  }
+
+  .Score {
+    border-radius: 100%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+  }
+
+  .Score > h1 {
+    padding-top: 15%;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
+
+  .Score > p {
+    color: hsl(241, 100%, 89%);
+    margin-top: 0%;
+    padding-top: 6%;
+  }
+
+  .Result-Score > h2 {
+    color: hsl(0, 0%, 100%);
+    margin: 0%;
+    padding-top: 6%;
+  }
+
+  .Result-Score > p {
+    color: hsl(241, 100%, 89%);
+    margin: 0%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .Result-Summary {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 57%;
+  }
+
+
+  .Result-Summary > div {
+    height: 75%;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+  }
+
+  li {
+    margin-bottom: 5%;
+    height: 19%;
+    border-radius: 20px;
+    display: flex;
+    flex-grow: initial;
+    align-items: center;
+    width: auto;
+  }
+
+  li > img {
+    margin-left: 6%;
+    margin-right: 3%;
+  }
+
+  li > p {
+    display: inline;
+    flex: 3;
+  }
+
+  span {
+    flex: 1;
+    float: right;
+    margin-right: 6%;
+    color: hsl(224, 30%, 27%);
+  }
+
+  .Indiviual-score-reactoin {
+    background: hsl(0, 100%, 67%, .1);
+    color: hsl(0, 100%, 67%);
+  }
+
+  .Indiviual-score-memory {
+    background: hsl(39, 100%, 56%, .1);
+    color: hsl(39, 100%, 56%);
+  }
+
+  .Indiviual-score-verbal {
+    background: hsl(166, 100%, 37%, .1);
+    color: hsl(166, 100%, 37%);
+  }
+
+  .Indiviual-score-visual {
+    background: hsl(234, 85%, 45%, .1);
+    color: hsl(234, 85%, 45%);
+  }
+
+  button {
+    height: 12%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    padding: 0px;
+    border: 0px;
+  }
+  
+  button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
+
+}
+
+
+
+
+
+
